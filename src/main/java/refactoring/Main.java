@@ -7,22 +7,22 @@ import static refactoring.UserArray.*;
 public class Main {
 
     public static void main(String[] args) throws InterruptedException {
-        System.out.println("ʟᴀʙ 1");
+        System.out.println("lab 1");
         sayHello();
 
-        System.out.println("ʟᴀʙ 2 ᴛᴀsᴋ 1");
+        System.out.println("lab 2 task 1");
         workWithArray();
 
-        System.out.println("ʟᴀʙ 2 ᴛᴀsᴋ 2.1");
+        System.out.println("lab 2 task 2.1");
         workWithMatrix();
         Thread.sleep(1000);
 
-        System.out.println("ʟᴀʙ 2 ᴛᴀsᴋ 2.2");
+        System.out.println("lab 2 task 2.2");
         obtainNewMatrix();
 
         Thread.sleep(1000);
 
-        System.out.println("ʟᴀʙ 3");
+        System.out.println("lab 3");
         runSort();
     }
 
@@ -134,7 +134,7 @@ public class Main {
             javaUtil.sort(copyArray(array));
             selection.sort(copyArray(array));
             loopCounter++;
-            System.out.printf("ⒺⓃⒹ ⓁⓄⓄⓅ %d\n", loopCounter);
+            System.out.printf("END LOOP %d\n", loopCounter);
             System.out.println();
             Thread.sleep(1200);
         }
